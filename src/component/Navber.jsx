@@ -1,6 +1,6 @@
 import { BsCart } from "react-icons/bs";
 
-const Navber = () => {
+const Navber = ({selectedCart, setSelectedCart}) => {
     return (
         <div className="max-w-[1200px] mx-auto">
             <div className="navbar bg-white shadow-md px-6">
@@ -39,7 +39,7 @@ const Navber = () => {
       <BsCart />
     </button>
     <span className="absolute -top-2 -right-2 bg-red-600 text-white text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">
-      3
+      {selectedCart.length }
     </span>
   </div>
 
