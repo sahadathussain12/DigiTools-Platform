@@ -1,3 +1,4 @@
+import { toast } from "react-toastify";
 
 
 const Cart = ({selectedCart, setSelectedCart}) => {
@@ -9,12 +10,14 @@ const Cart = ({selectedCart, setSelectedCart}) => {
 
         const handleDeleted = ()=>{
             setSelectedCart([])
+            toast.success('All card deleted')
         }
 
         const handleCartDelete = (item)=>{
             const filterdelete = selectedCart.filter(del => del.id !== item.id)
             // selectedCart(filterdelete);
             setSelectedCart(filterdelete);
+            toast.success('card deleted')
         }
 
 
