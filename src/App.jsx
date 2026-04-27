@@ -6,6 +6,8 @@ import Model from './component/Model'
 import Navber from './component/Navber'
 import Primiyam from './component/Primiyam'
 import Cart from './Cart'
+import Step from './Step'
+import Pricing from './Pricing'
 
 
 const  getData = async()=> {
@@ -32,6 +34,9 @@ function App() {
     <Primiyam/>
     <Model dataPromis = {dataPromis} Active={Active} setActive={setActive} selectedCart={selectedCart} setSelectedCart={setSelectedCart}/>
    { Active === 'Cart' && <Cart selectedCart={selectedCart} setSelectedCart={setSelectedCart}/>     } 
+
+   <Step/>
+   <Pricing/>
     </>
   )
 }

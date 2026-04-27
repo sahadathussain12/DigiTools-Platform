@@ -38,8 +38,8 @@ const Navber = ({selectedCart, setSelectedCart}) => {
     <button className="text-xl text-gray-700">
       <BsCart />
     </button>
-    <span className="absolute -top-2 -right-2 bg-red-600 text-white text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">
-      {selectedCart.length }
+    <span className="absolute -top-2 -right-2 bg-red-600 text-white text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full ">
+      {selectedCart.length}
     </span>
   </div>
 

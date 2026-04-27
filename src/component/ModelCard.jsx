@@ -9,16 +9,21 @@ const ModelCard = ({item,selectedCart, setSelectedCart}) => {
 
    const handleSelectedCard = ()=>{
     setClicked(true)
-    const isFound = selectedCart.find(item => item.id === item.id)
+    
+    const isFound = selectedCart.find(i => i.id === item.id)
     if(isFound){
         toast.error('item alrady added in card')
         return;
+    }else{
+      setSelectedCart([...selectedCart,item])
+      toast.success('cart added')
     }
     
-     setSelectedCart([...selectedCart,item])
+     
      
     }
     console.log(selectedCart);
+    
 
     // console.log(item);
     return (

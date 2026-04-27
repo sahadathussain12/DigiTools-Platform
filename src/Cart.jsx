@@ -23,7 +23,7 @@ const Cart = ({selectedCart, setSelectedCart}) => {
 
 
     return (
-        <div className="p-10 max-w-[1200px] mx-auto">
+        <div className="p-10 max-w-[1200px] mx-auto border border-white shadow-lg">
             <h1 className="text-3xl font-bold">Your Card</h1>
             {
                 selectedCart.map(item => <div className=" " key={item.id}>
