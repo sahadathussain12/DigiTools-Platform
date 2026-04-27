@@ -8,6 +8,7 @@ import Primiyam from './component/Primiyam'
 import Cart from './Cart'
 import Step from './Step'
 import Pricing from './Pricing'
+import Footer from './Footer'
 
 
 const  getData = async()=> {
@@ -37,6 +38,7 @@ function App() {
 
    <Step/>
    <Pricing/>
+    <Footer/>
     </>
   )
 }
