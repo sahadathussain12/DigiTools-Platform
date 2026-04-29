@@ -17,7 +17,7 @@ const Model = ({dataPromis,Active,setActive,selectedCart, setSelectedCart}) => {
                  <input
                    type="radio"
                    name="my_tabs_1"
-                   className="tab checked:bg-gradient-to-r checked:from-[#4F39F6] checked:to-[#9514FA] checked:text-white rounded-full px-10"
+                   className="tab bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full px-10"
                    aria-label="Products"
                    onClick={() => setActive("Products")}
                    defaultChecked
@@ -26,7 +26,7 @@ const Model = ({dataPromis,Active,setActive,selectedCart, setSelectedCart}) => {
                  <input
                    type="radio"
                    name="my_tabs_1"
-                   className="tab rounded-full w-40 "
+                   className="tab  rounded-full w-40 "
                    aria-label= {`Cart (${selectedCart.length})`}
                    onClick={() => setActive("Cart")}
                  />
