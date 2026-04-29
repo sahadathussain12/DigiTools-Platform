@@ -1,16 +1,42 @@
-# React + Vite
+# DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## A Little Description
+DigiTools is a modern digital tools platform where users can explore, purchase, and manage AI-powered tools, templates, and productivity resources in one place.  
+It is built with a clean and responsive UI focused on simplicity, speed, and better user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
+- React.js  
+- Tailwind CSS  
+- JavaScript (ES6+)  
+- React Icons  
+- React Toastify 
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Key Features
 
-## Expanding the ESLint configuration
+### Smart Cart System
+Users can add and remove products dynamically with real-time cart updates and total price calculation.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Responsive Design
+Fully responsive layout that works smoothly on mobile, tablet, and desktop devices.
+
+### Interactive User Experience
+Instant feedback with toast notifications and smooth UI interactions for better usability.
+
+---
+
+## Live Demo
+https://digitools-plat-form.netlify.app
+
+---
+
+## Contact
+Email: abubakkar872884@gmail.com 
+GitHub: https://github.com/abubakkarsiddik123 
+
+---
+
+Thanks for checking out this project.
