@@ -29,13 +29,13 @@ Instant feedback with toast notifications and smooth UI interactions for better 
 ---
 
 ## Live Demo
-https://digitools-plat-form.netlify.app
+digitools-platfrom-a.netlify.app
 
 ---
 
 ## Contact
-Email: abubakkar872884@gmail.com 
-GitHub: https://github.com/abubakkarsiddik123 
+Email: sahadathussain872856@gmail.com
+GitHub: https://github.com/sahadathussain12
 
 ---
 
