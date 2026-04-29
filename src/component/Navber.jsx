@@ -1,6 +1,6 @@
 import { BsCart } from "react-icons/bs";
 
-const Navber = ({selectedCart, setSelectedCart}) => {
+const Navber = ({selectedCart}) => {
     return (
         <div className="max-w-[1200px] mx-auto">
             <div className="navbar bg-white shadow-md px-6">
